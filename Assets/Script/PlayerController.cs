@@ -29,6 +29,8 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        totalCoins = 0;
+
         currentTime = startingTime;
     }
 
